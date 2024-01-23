@@ -20,7 +20,7 @@ function main() {
   mainWindow.loadFile(path.join('app', 'index.html'));
 
   // turn on developer tools for time of developing process
-  mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
 }
 
 app.on('ready', main);
